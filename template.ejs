@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <title>实例：使用 cheerio 抓取网页数据，并通过 ejs 模板输出静态页面</title>
+  </head>
+  <body>
+    <div id="content">
+      <% servers.forEach(function(server){ %>
+        <div>
+          <h4>服务器地址:<%= server.server %></h4>
+          <h4>端口:<%= server.port %></h4>
+          <h4>密码:<%= server.password %></h4>
+          <h4>加密方式:<%= server.encrypt %></h4>
+          <h4>状态:<%= server.status %></h4>
+          <h4><%= server.tip %></h4>
+        </div>
+      <% }) %>
+  	</div>
+  </body>
+</html> 

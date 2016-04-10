@@ -1,0 +1,20 @@
+{
+  "name": "demo-cheerio-ejs",
+  "version": "1.0.0",
+  "description": "grab web page with cheerio and render data with ejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "spider",
+    "cheerio",
+    "ejs"
+  ],
+  "author": "linfuyan",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "ejs": "^2.4.1"
+  }
+}
